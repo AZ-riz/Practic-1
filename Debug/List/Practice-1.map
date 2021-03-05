@@ -1,0 +1,28 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+_seed                                                                             0x0260       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+j                                                                                 R6,R7        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x00061     19
+model_1_PushB                                                                     0x00074    164
+model_3_PushB                                                                     0x0013B     82
+model_4_SW1                                                                       0x0018D     43
+model_5_SW2                                                                       0x001B8     37
+ftrunc                                                                            0x001DD     49
+floor                                                                             0x0020E     19
+log                                                                               0x00221    134
+exp                                                                               0x002A7    154
+pow                                                                               0x00341     82
